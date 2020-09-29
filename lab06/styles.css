@@ -1,6 +1,6 @@
-body { font-face: Tahoma; }
+body {font-family: Tahoma; }
 h2 {color: teal;}
 h1 {color: teal;}
 .evenrow {color: WhiteSmoke;}
-h1 {font-face: 2em}
-h2 {font-face: 1.25em}
+h1 {font-style: 2em}
+h2 {font-style: 1.25em}
