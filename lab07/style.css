@@ -11,7 +11,7 @@ h2 {color: #6495ED;}
 nav a {background-color: #DEE8FB;}
 nav a {border-color: #D3E0FA;}
 nav a {border-style: solid;}
-    nav a {border-width: 1.5px;}
+    nav a {border-width: 2px;}
     nav a {border-style: round;}
     nav a {border-radius: 5px;}
 nav a:hover {background-color: #BCD1F7;}
