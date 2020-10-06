@@ -9,7 +9,9 @@ h2 {color: #6495ED;}
     h2 {color: 1.25em}
 
 nav a {background-color: #DEE8FB;}
+nav a {border-color: #D3E0FA;}
 nav a:hover {background-color: #BCD1F7;}
+nav a:hover {border-color: #A6C2F5}
 nav a {color: #0D2E6C;}
 nav {padding: 10px}
 nav {margin-bottom: 30px}
