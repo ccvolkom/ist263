@@ -2,13 +2,18 @@ body {background-color: #E9F0FC;}
 body {font-family: Tahoma; }
 body {color: #05122B;}
 body a {color: #0D2E6C;}
+
 h1 {color: #6495ED;}
     h1 {color: 2em}
 h2 {color: #6495ED;}
     h2 {color: 1.25em}
-nav {background-color: #BCD1F7;}
-nav {scrollbar-highlight-color: #FFFFFF;}
+
+nav a {background-color: #ffffff;}
+nav a:hover {background-color: #BCD1F7;}
 nav a {color: #0D2E6C;}
+nav {padding: 10px}
+nav {margin-bottom: 30px}
+
 .evenrow {background-color: #E9F0FC;}
 table {background-color: #F4F7FE;}
 table {color: #05122B}
