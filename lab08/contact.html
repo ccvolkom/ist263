@@ -7,19 +7,17 @@
         <title>Katie Volkomer- Contact</title>
         <link rel= "stylesheet" href= "style.css">
         <style>
-            .part1 {display: flex; background-color: white; border-radius: 1em; } 
-                .part1 section {padding: 20px}
-                .part1 .section1 {flex: 1; order: 1;}
-                .part1 .section2 {flex: 1; order: 2;}
-                .part1 .section1, .part1 .section2 {margin: 10px}
+            .part1 {display: flex; background-color: white; border-radius: 1em; padding: 20px;} 
+                .part1 .span1 {flex: 1; order: 1;;}
+                .part1 .span2 {flex: 1; order: 2;}
+                .span1, .span2 {margin: 10px}
 
                 .clear {clear: both;}
 
-            .part2 {display: flex; background-color: white; border-radius: 1em;}
-                .part2 section {padding: 30px}
-                .part2 .section1 {flex: 1; order: 2;}
-                .part2 .section2 {flex: 1; order: 1;}
-                .part2 .section1, .part2 .section2 {margin: 10px}
+            .part2 {display: flex; background-color: white; border-radius: 1em; padding: 30px;}
+                .part2 .span1 {flex: 1; order: 2;}
+                .part2 .span2 {flex: 1; order: 1;}
+                .span1, .span2 {margin: 10px}
 
                 .clear {clear: both;}
         </style>
@@ -39,15 +37,15 @@
         </header>
 
     <div class="part1">
-        <section>
+    <span>
         <p><strong>Katie Volkomer</strong>
             <br>S.I. Newhouse School of Public Commuications
            <br>215 University Pl 
            <br>Syracuse, NY 13210
         </p>
-        </section>
+    </span>
 
-        <section>
+    <span>
         <p>
             <a href="mailto:ccvolkom@syr.edu">ccvolkom@syr.edu</a>
         </p>
@@ -56,16 +54,16 @@
             <img src="../images/LinkedIn-Logos/logo-sized.png" alt="LinkedIn Logo">
             <a href="https://www.linkedin.com/in/katievolkomer/" target="_blank">My LinkedIn Profile</a>
         </p>
-        </section>
         <div class="clear"></div>
+    </span>
      </div>
 <br>
     <div class="part2">
-        <section>   
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.0559636539065!2d-76.13772264880461!3d43.040253999763756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39f79fe2d95%3A0x502d319e4dc4455e!2sNewhouse%2C%20215%20University%20Pl%2C%20Syracuse%2C%20NY%2013244!5e0!3m2!1sen!2sus!4v1600467059890!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </section> 
+    <span>   
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.0559636539065!2d-76.13772264880461!3d43.040253999763756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39f79fe2d95%3A0x502d319e4dc4455e!2sNewhouse%2C%20215%20University%20Pl%2C%20Syracuse%2C%20NY%2013244!5e0!3m2!1sen!2sus!4v1600467059890!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>   
+    </span>   
 
-        <section>
+    <span>
         <form action="mailto:ccvolkom@syr.edu" method="post">
                 <label for="fname">First Name:</label><br>
                 <input type="text" id="fname" name="fname"><br>
@@ -85,7 +83,7 @@ Send me a message so we can become penpals.
             <br>
                 <input type="submit" value="Submit">
         </form>
-        </section>
+    </span>
         <div class="clear"></div>
     </div>
     </body>
