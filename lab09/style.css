@@ -23,3 +23,5 @@ nav {margin-bottom: 30px}
 .evenrow {background-color: #E9F0FC;}
 table {background-color: #F4F7FE;}
 table {color: #05122B}
+
+header {max-width: 100%;}
