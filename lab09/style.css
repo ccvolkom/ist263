@@ -1,0 +1,25 @@
+body {background-color: #E9F0FC;}
+body {font-family: Tahoma; }
+body {color: #05122B;}
+body a {color: #0D2E6C;}
+
+h1 {color: #6495ED;}
+    h1 {color: 2em}
+h2 {color: #6495ED;}
+    h2 {color: 1.25em}
+
+nav a {background-color: #DEE8FB;}
+nav a {border-color: #D3E0FA;}
+nav a {border-style: solid;}
+    nav a {border-width: 2px;}
+    nav a {border-style: round;}
+    nav a {border-radius: 5px;}
+nav a:hover {background-color: #BCD1F7;}
+nav a:hover {border-color: #A6C2F5}
+nav a {color: #0D2E6C;}
+nav {padding: 10px}
+nav {margin-bottom: 30px}
+
+.evenrow {background-color: #E9F0FC;}
+table {background-color: #F4F7FE;}
+table {color: #05122B}
