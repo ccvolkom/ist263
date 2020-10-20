@@ -25,3 +25,8 @@ table {background-color: #F4F7FE;}
 table {color: #05122B}
 
 .bigpic {max-width: 100%;}
+
+@media only screen and (max-width: 600px) 
+{
+    nav a {viewport-fit: 100%;}
+}
