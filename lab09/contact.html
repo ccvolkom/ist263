@@ -8,29 +8,40 @@
         <title>Katie Volkomer- Contact</title>
         <link rel= "stylesheet" href= "style.css">
         <style>
-            .part1 {display: flex; background-color: white; border-radius: 1em; padding: 20px;} 
+            .part1 {display: flex;background-color: white; border-radius: 1em; padding: 20px;} 
                 .part1 .main1 {flex: 1; flex-basis: 25%;}
                 .part1 .main2 {flex: 1; flex-basis: 75%;}
                 .part1 .main1, .part1 .main2 {margin: 20px;}
 
                 .clear {clear: both;}
 
-            .part2 {display: flex; flex-wrap: wrap; background-color: white; border-radius: 1em; padding: 40px;}
+            .part2 {display: flex; flex-wrap: wrap;background-color: white; border-radius: 1em; padding: 40px;}
                 .part2 .main1 {flex: 1; flex-basis: 40%; vertical-align: middle;}
                 .part2 .main2 {flex: 1; flex-basis: 60%;}
                 .part2 .main1, .part2 .main2 {margin: 20px;}
 
-                .clear {clear: both;}
+                .clear {clear: both;}   
+
+            .small {list-style-type:none;
+                    margin: 0;
+                    padding:0 ;}
         </style>
     </head>
 
     <body>
-        <nav>
+        <nav class="large">
             <a href="index.html" >Home</a>
-            &#124;
+            <span>&#124;</span>
             <a href="skills.html" >Skills</a>
-            &#124; 
+           <span>&#124;</span>
             <a href="contact.html">Contact</a>
+        </nav>
+        <nav class="small">
+            <ul> 
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="skills.html" >Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
         
         <header>
