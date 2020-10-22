@@ -26,7 +26,6 @@ table {color: #05122B}
 .bigpic {max-width: 100%;}
 
 @media only screen and (max-width: 600px) 
-    {.large {display: none;}}  
-@media only screen and (min-width: 601px) 
-    {.small {display: none;}
-    {nav a {margin-bottom: 30px;}}
+    {nav a {display: block; width: 100%; margin-bottom: 7px;}
+    .line {display: none;}
+    }
