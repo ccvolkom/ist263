@@ -1,0 +1,26 @@
+body {background-color: #E3D7C9;}
+body {font-family: Verdana; }
+body {color: #251E18;}
+body a {color: #4C3D2F;}
+
+#skip-to-content {color: #725B46; text-align: left;}
+
+h1 {color: #4C3D2F; text-align: center;}
+    h1 {color: 2em}
+
+nav {background-color: #725B46; color: #FFFFFF;}
+nav a {color: #FFFFFF;}
+nav {padding: 7px; text-align: center;}
+
+footer {text-align: left;}
+
+main {text-align: center;}
+
+.recipes {display: flex; flex-wrap: wrap; margin: 30px; background-color: #F1EBE4; border-radius: 1em; padding: 40px; justify-content: center;}
+    .clear {clear: both;}
+    .r1 {margin-right: 60px;}
+
+@media only screen and (max-width: 600px) 
+    {nav a {display: block; width: 100%; margin-bottom: 5px; text-align: left;}
+    .line {display: none;}
+    }

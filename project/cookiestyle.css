@@ -1,0 +1,31 @@
+body {background-color: #E3D7C9;}
+body {font-family: Verdana; }
+body {color: #251E18;}
+body a {color: #4C3D2F;}
+
+#skip-to-content {color: #725B46; text-align: left;}
+
+h1 {color: #4C3D2F;}
+    h1 {color: 2em}
+
+nav {background-color: #725B46; color: #FFFFFF;}
+nav a {color: #FFFFFF;}
+nav {padding: 7px; text-align: center;}
+
+.bigcookiepic {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {text-align: center; margin: 10px;}
+
+.cookies {margin-bottom: 10px;}
+
+footer {text-align: left;}
+
+@media only screen and (max-width: 600px) 
+    {nav a {display: block; width: 100%; margin-bottom: 5px; text-align: left;}
+    .line {display: none;}
+    }

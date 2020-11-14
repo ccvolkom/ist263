@@ -6,6 +6,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Cut The Cookie - Contact</title>
+        <link rel= "stylesheet" href= "cookiestyle.css">
+        <style>
+            body {text-align: left;}
+
+            .part2 {display: flex; flex-wrap: wrap; float: left; margin: 30px; background-color: #F1EBE4; border-radius: 1em; padding: 40px;}
+                .clear {clear: both;}
+                .main4 {margin-left: 40px;}
+
+            .part1 {margin-left: 40px}
+
+        </style>
     </head>
 
 <body>
@@ -20,6 +31,7 @@
 
     <a id="content"></a>
 
+<div class="part1"> 
     <h1>Contact Us</h1>
 
     <main class="main1">
@@ -34,7 +46,9 @@
             <a href="mailto:ccvolkom@syr.edu">cutthecookie@gmail.com</a>
         </p>
     </main>
-    
+</div>
+
+<div class="part2">
     <main class="main3">
         <form action="mailto:ccvolkom@syr.edu" method="post">
                 <label for="fname">First Name:</label><br>
@@ -53,17 +67,22 @@
                 <input type="radio" id="other" name="inquiry" value="other">
                 <label for="other">Other</label><br>
             </fieldset> 
+        </form>
             <br>
+    </main>
+    <main class="main4"
+        <form action="mailto:ccvolkom@syr.edu" method="post">
                 <label for="message">Send Us A Message:</label>
                 <br>
                 <textarea id="message" name="message" rows="10" cols="30">
 Send us some cookies.
                 </textarea>
-            <br>
+                <br>
                 <input type="submit" value="Submit">
         </form>
     </main>
-
+</div>
+    <div class="clear"></div>
     <footer>
         <hr>
         &copy; 2020

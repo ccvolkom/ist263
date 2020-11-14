@@ -6,6 +6,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Cut The Cookie - Gluten Free</title>
+        <link rel= "stylesheet" href= "cookiestyle.css">
+
+        <style>
+            .cookies {text-align: center; display: flex; flex-wrap: wrap; margin: 10px; align: center;}
+                .gfcc, .gfsugar, .gfpb, .gfor, .gfdcc {margin: 10px;}
+        </style>
     </head>
 
     <body>
@@ -18,49 +24,64 @@
         <a href="contact.html">Contact</a>
     </nav>
 
-    <header><img class="gfpic" src="media/png/gfheader.png" alt=""></header>   
+    <header><img class="bigcookiepic" src="media/png/gfheader.png" alt=""></header>   
 
     <h1>Gluten Free Cookies</h1>
 
     <main>
         <a id="content"></a>
 
-        <p class="glutenfreecookies">
+        <div class="maincookies" style="padding: 7px; text-align: center;">
             <a href="classics.html">The Classics</a>
+            <span class="line">&#124;</span>
             <a href="specialty.html">Specialty</a>
+            <span class="line">&#124;</span>
             <a href="holiday.html">Holiday</a>
+            <span class="line">&#124;</span>
             <a href="glutenfree.html">Gluten Free</a>
-        </p>
+        </div>
         
         <p>
             For all of our gluten-free bakers out there, we’ve got you covered with these gluten-free twists on classic recipes. No matter your diet restriction you deserve delicious.
         </p>
 
-        <p class="classiccookies">
-            <a href="glutenfree/gfchocolatechip.html">Gluten Free Chocolate Chip</a>
-            <br>
-            <img src="media/png/gfcc.png" alt="">
-            <br>
+        <div class="cookies">
+        <p>
+            <div class="gfcc">
+                <a href="glutenfree/gfchocolatechip.html">Gluten Free Chocolate Chip</a>
+                <br>
+                <img src="media/png/gfcc.png" alt="">
+                <br>
+            </div>
+
+            <div class=gfsugar>
+                <a href="glutenfree/gfsugar.html">Gluten Free Sugar</a>
+                <br>
+                <img src="media/png/gfsugar.png" alt="">
+                <br>
+            </div>
+
+            <div class="gfpb">
+                <a href="glutenfree/gfpeanutbutter.html">Gluten Free Peanut Butter</a>
+                <br>
+                <img src="media/png/gfpb.png" alt="">
+                <br>
+            </div>    
+
+            <div class="gfor">
+                <a href="glutenfree/gfoatmealraisin.html">Gluten Free Oatmeal Raisin</a>
+                <br>
+                <img src="media/png/gfoatmealraisin.png" alt="">
+                <br>
+            </div>   
             
-            <a href="glutenfree/gfsugar.html">Gluten Free Sugar</a>
-            <br>
-            <img src="media/png/gfsugar.png" alt="">
-            <br>
-            
-            <a href="glutenfree/gfpeanutbutter.html">Gluten Free Peanut Butter</a>
-            <br>
-            <img src="media/png/gfpb.png" alt="">
-            <br>
-            
-            <a href="glutenfree/gfoatmealraisin.html">Gluten Free Oatmeal Raisin</a>
-            <br>
-            <img src="media/png/gfoatmealraisin.png" alt="">
-            <br>
-            
-            <a href="glutenfree/gfdoublechocolatechip.html">Gluten Free Double Chocolate Chip</a>
-            <br>
-            <img src="media/png/doublechocchip2.png" alt="">
+            <div class="gfdcc">
+                <a href="glutenfree/gfdoublechocolatechip.html">Gluten Free Double Chocolate Chip</a>
+                <br>
+                <img src="media/png/doublechocchip2.png" alt="">
+            </div>
         </p>
+        </div>
 
     </main>
 

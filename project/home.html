@@ -6,6 +6,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Cut The Cookie - Home</title>
+        <link rel= "stylesheet" href= "cookiestyle.css">
+
+        <style>
+            main {text-align: center; display: flex; flex-wrap: wrap; margin: 10px; align: center;}
+                .classics, .specialty, .holiday, .gf {margin: 10px;}
+                    .classics {flex-basis: 22.5%;}
+                    .specialty {flex-basis: 22.5%;}
+                    .holiday {flex-basis: 22.5%;}
+                    .gf {flex-basis: 22.5%;}
+        </style>
     </head>
 
     <body>
@@ -20,39 +30,49 @@
 
     <header><img class="bigcookiepic" src="media/pics/header.png" alt=""></header>   
 
-    <p>
+    <p style="text-align: center; margin: 30px;">
         Welcome to the cookie fanatics dream! We have all the best recipes for all the best cookies. Looking for some classics? Visit our classics page. Trying to make the best holiday cookie platter? We’ve got you covered. And if you ever need some fancy cookies, check out our specialty page. Last but certainly not least, for our gluten-free friends, we’ve got some of the best gluten-free tried and tested recipes.
     </p>
 
     <main>
         <a id="content"></a>
 
-        <p class="cookies">
+        <p class="maincookies">
             
+            <div class="classics">
             <a href="classics.html">The Classics</a>
             <br>
             <img src="media/png/cc1.png" alt="">
             <br>
+            </div>
 
+            <div class="specialty">
             <a href="specialty.html">Specialty</a>
             <br>
             <img src="media/png/doublechocchip2.png" alt="">
             <br>
+            </div>
 
+            <div class="holiday">
             <a href="holiday.html">Holiday</a>
             <br>
             <img src="media/png/gingerbread.png" alt="">
             <br>
+            </div>
 
+            <div class="gf">
             <a href="glutenfree.html">Gluten Free</a>
             <br>
             <img src="media/png/gfoatmealraisin.png" alt="">
             <br>
+            </div>
 
         </p>
-
     </main>
 
+    <div class="clear"></div>
+
+    <br>
     <footer>
         <hr>
         &copy; 2020
