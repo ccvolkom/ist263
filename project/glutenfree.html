@@ -9,8 +9,8 @@
         <link rel= "stylesheet" href= "cookiestyle.css">
 
         <style>
-            .cookies {text-align: center; display: flex; flex-wrap: wrap; margin: 10px; align: center;}
-                .gfcc, .gfsugar, .gfpb, .gfor, .gfdcc {margin: 10px;}
+            .cookies {text-align: center; display: flex; flex-wrap: wrap; margin: 10px auto; align-items: center; justify-content: center;}
+                .gfcc, .gfsugar, .gfpb, .gfor, .gfdcc {margin: 10px; flex-basis: 25%; flex-flow: center;}
         </style>
     </head>
 
@@ -24,21 +24,19 @@
         <a href="contact.html">Contact</a>
     </nav>
 
-    <header><img class="bigcookiepic" src="media/png/gfheader.png" alt=""></header>   
-
-    <h1>Gluten Free Cookies</h1>
+    <header><img class="bigcookiepic" src="media/png/gfheader.png" alt="an array of gluten free cookies"></header>   
 
     <main>
         <a id="content"></a>
 
-        <div class="maincookies" style="padding: 7px; text-align: center;">
-            <a href="classics.html">The Classics</a>
+        <div class="maincookies" style="padding: 7px; text-align: center; margin-top: 20px">
+            <a href="classics.html" id="maincookies" onclick="style.backgroundColor ='#725B46'" onmouseover="style.color='white'" onmouseout="style.color='#4C3D2F'">The Classics</a>
             <span class="line">&#124;</span>
-            <a href="specialty.html">Specialty</a>
+            <a href="specialty.html" id="maincookies" onclick="style.backgroundColor ='#725B46'" onmouseover="style.color='white'" onmouseout="style.color='#4C3D2F'">Specialty</a>
             <span class="line">&#124;</span>
-            <a href="holiday.html">Holiday</a>
+            <a href="holiday.html" id="maincookies" onclick="style.backgroundColor ='#725B46'" onmouseover="style.color='white'" onmouseout="style.color='#4C3D2F'">Holiday</a>
             <span class="line">&#124;</span>
-            <a href="glutenfree.html">Gluten Free</a>
+            <a href="glutenfree.html" id="maincookies" style ="color: #FFFFFF; background-color: #8F7257; border-style: solid; border-color: #8F7257; border-size: 1px; border-radius: 7px; padding: 3px;" onclick="style.backgroundColor ='#725B46'">Gluten Free</a>
         </div>
         
         <p>
@@ -49,35 +47,35 @@
             <div class="gfcc">
                 <a href="glutenfree/gfchocolatechip.html">Gluten Free Chocolate Chip</a>
                 <br>
-                <img src="media/png/gfcc.png" alt="">
+                <img src="media/png/gfcc.png" alt="a few chocolate chip cookies">
                 <br>
             </div>
 
             <div class=gfsugar>
                 <a href="glutenfree/gfsugar.html">Gluten Free Sugar</a>
                 <br>
-                <img src="media/png/gfsugar.png" alt="">
+                <img src="media/png/gfsugar.png" alt="sugar cookies on a cooling rack">
                 <br>
             </div>
 
             <div class="gfpb">
                 <a href="glutenfree/gfpeanutbutter.html">Gluten Free Peanut Butter</a>
                 <br>
-                <img src="media/png/gfpb.png" alt="">
+                <img src="media/png/gfpb.png" alt="a stack of peanut butter cookies">
                 <br>
             </div>    
 
             <div class="gfor">
                 <a href="glutenfree/gfoatmealraisin.html">Gluten Free Oatmeal Raisin</a>
                 <br>
-                <img src="media/png/gfoatmealraisin.png" alt="">
+                <img src="media/png/gfoatmealraisin.png" alt="oatmeal cookies on a cooling rack">
                 <br>
             </div>   
             
             <div class="gfdcc">
                 <a href="glutenfree/gfdoublechocolatechip.html">Gluten Free Double Chocolate Chip</a>
                 <br>
-                <img src="media/png/doublechocchip2.png" alt="">
+                <img src="media/png/doublechocchip2.png" alt="a pile of chocolate cookies">
             </div>
         </div>
 

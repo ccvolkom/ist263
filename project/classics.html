@@ -9,8 +9,9 @@
         <link rel= "stylesheet" href= "cookiestyle.css">
 
         <style>
-            .cookies {text-align: center; display: flex; flex-wrap: wrap; margin: 10px; align: center;}
+            .cookies {text-align: center; display: flex; flex-wrap: wrap; margin: 10px auto; align-items: center; justify-content: center;}
                 .chocolatechip, .shortbread, .snickerdoodle, .molasses, .pb, .oatmealraisin, .wcmn, .mandm, .sugar {margin: 10px;} 
+                .chocolatechip, .shortbread, .snickerdoodle, .molasses, .pb, .oatmealraisin, .mandm, .sugar {flex-basis: 20%; flex-flow: center;}
         </style>
     </head>
 
@@ -24,21 +25,19 @@
         <a href="contact.html">Contact</a>
     </nav>
 
-    <header><img class="bigcookiepic" src="media/png/classicheader.png" alt=""></header>   
-
-    <h1>The Classics</h1>
+    <header><img class="bigcookiepic" src="media/png/classicheader.png" alt="chocolate chip cookies"></header>   
 
     <main>
         <a id="content"></a>
 
-        <div class="maincookies" style="padding: 7px; text-align: center;">
-            <a href="classics.html">The Classics</a>
+        <div class="maincookies" style="padding: 7px; text-align: center; margin-top: 20px">
+            <a href="classics.html" id="maincookies" style ="color: #FFFFFF; background-color: #8F7257; border-style: solid; border-color: #8F7257; border-size: 1px; border-radius: 7px; padding: 3px;" onclick="style.backgroundColor ='#725B46'">The Classics</a>
             <span class="line">&#124;</span>
-            <a href="specialty.html">Specialty</a>
+            <a href="specialty.html" id="maincookies" onclick="style.backgroundColor ='#725B46'" onmouseover="style.color='white'" onmouseout="style.color='#4C3D2F'">Specialty</a>
             <span class="line">&#124;</span>
-            <a href="holiday.html">Holiday</a>
+            <a href="holiday.html" id="maincookies" onclick="style.backgroundColor ='#725B46'" onmouseover="style.color='white'" onmouseout="style.color='#4C3D2F'">Holiday</a>
             <span class="line">&#124;</span>
-            <a href="glutenfree.html">Gluten Free</a>
+            <a href="glutenfree.html" id="maincookies" onclick="style.backgroundColor ='#725B46'" onmouseover="style.color='white'" onmouseout="style.color='#4C3D2F'">Gluten Free</a>
         </div>
         
         <p style="margin: 30px;">
@@ -50,63 +49,63 @@
             <div class="chocolatechip">
                 <a href="classics/chocolatechip.html">Chocolate Chip</a>
                 <br>
-                <img src="media/png/cc1.png" alt="">
+                <img src="media/png/cc1.png" alt="chocolate chip cookies">
                 <br>
             </div>
             
             <div class="shortbread">
                 <a href="classics/shortbread.html">Shortbread</a>
                 <br>
-                <img src="media/png/shortbread.png" alt="">
+                <img src="media/png/shortbread.png" alt="shortbread cookies dipped in chocolate">
                 <br>
             </div>
 
             <div class="snickerdoodle">
                 <a href="classics/snickerdoodle.html">Snickerdoodle</a>
                 <br>
-                <img src="media/png/snickerdoodle.png" alt="">
+                <img src="media/png/snickerdoodle.png" alt="a stack of snickerdoodle cookies">
                 <br>
             </div> 
 
             <div class="molasses">
                 <a href="classics/molasses.html">Molasses</a>
                 <br>
-                <img src="media/png/molasses.png" alt="">
+                <img src="media/png/molasses.png" alt="three molasses cookies">
                 <br>
             </div>      
-                
+
             <div class="pb">
                 <a href="classics/peanutbutter.html">Peanut Butter</a>
                 <br>
-                <img src="media/png/pb.png" alt="">
+                <img src="media/png/pb.png" alt="a pile of peanut butter cookies">
                 <br>
             </div>
             
             <div class="oatmealraisin">
                 <a href="classics/oatmealraisin.html">Oatmeal Raisin</a>
                 <br>
-                <img src="media/png/oatmealraisin.png" alt="">
-                <br>
-            </div>
-
-            <div class="wcmn">
-                <a href="classics/whitechocolatemacadamianut.html">White Chocolate Chip Macadamia Nut</a>
-                <br>
-                <img src="media/png/whitechocmac.png" alt="">
+                <img src="media/png/oatmealraisin.png" alt="a few oatmeal raisin cookies">
                 <br>
             </div>
             
             <div class="mandm">
                 <a href="classics/m&m.html">M&#38;M</a>
                 <br>
-                <img src="media/png/m&m.png" alt="">
+                <img src="media/png/m&m.png" alt="a bunch of M and M cookies">
                 <br>
             </div>
 
             <div class="sugar">
                 <a href="classics/sugar.html">Sugar</a>
                 <br>
-                <img src="media/png/sugar.png" alt="">
+                <img src="media/png/sugar.png" alt="sugar cookies">
+            </div>
+
+            <div class="wcmn">
+                <a href="classics/whitechocolatemacadamianut.html">White Chocolate Chip Macadamia Nut</a>
+                <br>
+                <img src="media/png/whitechocmac.png" alt="a tray of white chocolaate chocolate chip cookies">
+                <br>
             </div>
         </div>
 

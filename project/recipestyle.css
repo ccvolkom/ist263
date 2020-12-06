@@ -12,13 +12,20 @@ nav {background-color: #725B46; color: #FFFFFF;}
 nav a {color: #FFFFFF;}
 nav {padding: 7px; text-align: center;}
 
-footer {text-align: left;}
+footer {text-align: left; align-content: ;}
 
 main {text-align: center;}
 
-.recipes {display: flex; flex-wrap: wrap; margin: 30px; background-color: #F1EBE4; border-radius: 1em; padding: 40px; justify-content: center;}
+p {margin-bottom: 30px}
+
+.recipes {margin: 30px; background-color: #F1EBE4; border-radius: 1em; padding: 40px; justify-content: center;}
     .clear {clear: both;}
-    .r1 {margin-right: 60px;}
+    .r1, .r2 {margin-bottom: 20px;} 
+    @media only screen and (min-width: 601px){
+    .recipes {display: flex; flex-wrap: wrap;}
+    .r1, .r2, .r3 {margin: 15px; flex-basis: 30% auto;}
+    } 
+
 
 @media only screen and (max-width: 600px) 
     {nav a {display: block; width: 100%; margin-bottom: 5px; text-align: left;}

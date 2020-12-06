@@ -21,11 +21,12 @@ nav {padding: 7px; text-align: center;}
 
 body {text-align: center; margin: 10px;}
 
-.cookies {margin-bottom: 10px;}
+.cookies {margin-bottom: 10px; margin: auto;}
 
 footer {text-align: left;}
 
 @media only screen and (max-width: 600px) 
     {nav a {display: block; width: 100%; margin-bottom: 5px; text-align: left;}
     .line {display: none;}
+    main {text-align: center;}
     }
