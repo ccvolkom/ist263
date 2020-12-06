@@ -3,7 +3,7 @@ body {font-family: Verdana; }
 body {color: #251E18;}
 body a {color: #4C3D2F;}
 
-#skip-to-content {color: #65513E; text-align: left;}
+#skip-to-content {color: #65513E; text-align: left; display: none;}
 
 h1, h2 {color: #4C3D2F;}
     h1 {size: 2em;}
